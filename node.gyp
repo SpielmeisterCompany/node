@@ -58,6 +58,7 @@
       'lib/util.js',
       'lib/vm.js',
       'lib/zlib.js',
+      'lib/requirejs.js',
     ],
   },
 
