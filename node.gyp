@@ -80,6 +80,7 @@
       'lib/zipstream_crc32.js',
       'lib/commander.js',
       'lib/spelllicense.js',
+      'lib/wrench.js',
     ],
   },
 
