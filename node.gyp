@@ -59,6 +59,11 @@
       'lib/vm.js',
       'lib/zlib.js',
       'lib/requirejs.js',
+      'lib/uglifyjs.js',
+      'lib/uglifyjs_parsejs.js',
+      'lib/uglifyjs_process.js',
+      'lib/uglifyjs_squeezemore.js',
+      'lib/uglifyjs_consolidator.js',
     ],
   },
 
