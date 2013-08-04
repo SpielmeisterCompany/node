@@ -1,5 +1,13 @@
 @echo off
 
+SET PATH=C:\Python27\;C:\Windows\system32
+
+IF exist  C:\"Program Files (x86)"\"Microsoft Visual Studio 11.0"\nul ( 
+call C:\"Program Files (x86)"\"Microsoft Visual Studio 11.0"\VC\vcvarsall.bat x86
+) ELSE ( 
+call C:\"Program Files (x86)"\"Microsoft Visual Studio 10.0"\VC\vcvarsall.bat x86
+)
+
 cd %~dp0
 
 if /i "%1"=="help" goto help
