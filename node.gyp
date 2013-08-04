@@ -81,6 +81,7 @@
       'lib/commander.js',
       'lib/spelllicense.js',
       'lib/wrench.js',
+      'lib/pathUtil.js',
     ],
   },
 
