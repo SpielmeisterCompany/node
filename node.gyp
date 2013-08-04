@@ -78,6 +78,7 @@
       'lib/xmlbuilder_XMLFragment.js',
       'lib/zipstream.js',
       'lib/zipstream_crc32.js',
+      'lib/commander.js',
     ],
   },
 
