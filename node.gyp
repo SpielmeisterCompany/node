@@ -66,6 +66,12 @@
       'lib/uglifyjs_consolidator.js',
       'lib/underscore.js',
       'lib/ff.js',
+      'lib/amdhelper.js',
+      'lib/amdhelper_createModuleHeader.js',
+      'lib/amdhelper_extractModuleHeader.js',
+      'lib/amdhelper_loadModule.js',
+      'lib/amdhelper_loadModules.js',
+      'lib/amdhelper_traceDependencies.js',
     ],
   },
 
