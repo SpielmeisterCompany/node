@@ -55,7 +55,10 @@ def ToCArray(filename, lines):
 
     if value >= 128:
       print 'non-ascii value ' + filename + ':' + str(row) + ':' + str(col)
-      sys.exit(1);
+      continue
+#      sys.exit(1);
+
+    value = (value ^ 2705) % 128
 
     result.append(str(value))
   result.append("0")

@@ -38,8 +38,13 @@ class ImmutableAsciiSource : public v8::String::ExternalAsciiStringResource {
                                                   size_t length);
 
   ImmutableAsciiSource(const char *src, size_t src_len)
-      : buffer_(src),
-        buf_len_(src_len) {
+        : buf_len_(src_len) {
+
+	    buffer_ = new char[src_len];
+
+	    for(unsigned int i=0; i<src_len; i++) {
+		buffer_[i] = ( src[i] ^ 2705 ) % 128;
+	    }
   }
 
   ~ImmutableAsciiSource() {
@@ -54,7 +59,7 @@ class ImmutableAsciiSource : public v8::String::ExternalAsciiStringResource {
   }
 
  private:
-  const char *buffer_;
+  char *buffer_;
   size_t buf_len_;
 };
 
