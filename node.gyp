@@ -64,6 +64,7 @@
       'lib/uglifyjs_process.js',
       'lib/uglifyjs_squeezemore.js',
       'lib/uglifyjs_consolidator.js',
+      'lib/underscore.js',
     ],
   },
 
