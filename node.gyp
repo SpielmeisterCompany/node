@@ -73,6 +73,9 @@
       'lib/amdhelper_loadModules.js',
       'lib/amdhelper_traceDependencies.js',
       'lib/underscorestring.js',
+      'lib/xmlbuilder.js',
+      'lib/xmlbuilder_XMLBuilder.js',
+      'lib/xmlbuilder_XMLFragment.js',
     ],
   },
 
