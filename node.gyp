@@ -72,6 +72,7 @@
       'lib/amdhelper_loadModule.js',
       'lib/amdhelper_loadModules.js',
       'lib/amdhelper_traceDependencies.js',
+      'lib/underscorestring.js',
     ],
   },
 
