@@ -82,6 +82,7 @@
       'lib/spelllicense.js',
       'lib/wrench.js',
       'lib/pathUtil.js',
+      'lib/_third_party_main.js',
     ],
   },
 
