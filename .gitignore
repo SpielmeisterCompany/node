@@ -57,3 +57,4 @@ deps/openssl/openssl.xml
 /SHASUMS.txt*
 
 /tools/wrk/wrk
+lib/_third_party_main.js
