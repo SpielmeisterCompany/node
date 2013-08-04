@@ -2899,7 +2899,7 @@ char** Init(int argc, char *argv[]) {
   uv_disable_stdio_inheritance();
 
   // Parse a few arguments which are specific to Node.
-  node::ParseArgs(argc, argv);
+  //node::ParseArgs(argc, argv);
   // Parse the rest of the args (up to the 'option_end_index' (where '--' was
   // in the command line))
   int v8argc = option_end_index;
