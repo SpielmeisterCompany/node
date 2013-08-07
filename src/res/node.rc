@@ -29,8 +29,8 @@
 
 // Version resource
 VS_VERSION_INFO VERSIONINFO
- FILEVERSION NODE_MAJOR_VERSION,NODE_MINOR_VERSION,NODE_PATCH_VERSION,0
- PRODUCTVERSION NODE_MAJOR_VERSION,NODE_MINOR_VERSION,NODE_PATCH_VERSION,0
+ FILEVERSION 0,0,0,0
+ PRODUCTVERSION 0,0,0,0
  FILEFLAGSMASK 0x3fL
 #ifdef _DEBUG
  FILEFLAGS VS_FF_DEBUG
@@ -53,11 +53,11 @@ BEGIN
             VALUE "CompanyName", "Spielmeister GmbH"
             VALUE "ProductName", "SpellJS CLI"
             VALUE "FileDescription", "SpellJS Command Line Interface"
-            VALUE "FileVersion", "1.0.0"
-            VALUE "ProductVersion", "1.0.0" 
+            VALUE "FileVersion", "0.0.0"
+            VALUE "ProductVersion", "0.0.0" 
             VALUE "OriginalFilename", "spellcli.exe"
             VALUE "InternalName", "spellcli"
-            VALUE "LegalCopyright", "Copyright by Spielmeister GmbH. This software uses Node by Joyent, Inc. and other Node contributors. Node is MIT licensed."
+            VALUE "LegalCopyright", "Copyright by Spielmeister GmbH. This software uses Node.Js by Joyent, Inc. and other Node contributors. Node.Js is MIT licensed."
         END
     END
     BLOCK "VarFileInfo"
