@@ -77,6 +77,8 @@
       'lib/xmlbuilder_XMLBuilder.js',
       'lib/xmlbuilder_XMLFragment.js',
       'lib/xmldom.js',
+      'lib/xmldom_dom.js',
+      'lib/xmldom_sax.js',
       'lib/plist.js',
       'lib/zipstream.js',
       'lib/zipstream_crc32.js',
